@@ -107,6 +107,7 @@ export type Event = {
   chapter: Chapter;
   rsvps: Array<Rsvp>;
   tags?: Maybe<Array<Tag>>;
+  image: Scalars['String'];
 };
 
 export type EventSponsor = {
